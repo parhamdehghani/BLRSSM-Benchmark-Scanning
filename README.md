@@ -1,2 +1,33 @@
-# BLRSSM-Benchmark-Scanning
-These are the codes I have developed for conducting the primary and sensitive scans through the hyper-dimensional parameter space of the BLRSSM SUSY model which is hypothesized to replace the standard model of particle physics. Thses codes are relevant to perform the parameter search by automatically changing the free parameters of the theory in SPheno, and if favarable output will be input to micrOMEGAS software to check for the resulting relic abandance that must match the observational constraints. Searches will be done in two steps. First a primary search will show up the possible hot spot of the parameter space for any possible scenario, and then the secodary search will be done to check for the stability of the result and populate the acquired results in each resulting hotspot. These codes are used in both universal and non-universal cases of the BLRSSM model.
+# BSM Parameter Space Scanner
+
+## Overview
+A sophisticated parameter space scanning tool for Beyond Standard Model (BSM) physics, focusing on supersymmetric models with inverse seesaw mechanisms. This tool integrates with major physics software packages to perform comprehensive parameter space exploration while checking various experimental and theoretical constraints.
+
+## Features
+- Automated parameter space scanning with adaptive sampling
+- Integration with physics tools:
+  - SPheno for spectrum calculation
+  - MicrOMEGAs for dark matter properties
+- Built-in constraint checking:
+  - Relic density constraints
+  - Dark matter direct detection limits
+  - LHC constraints
+  - Flavor physics observables
+- Data management and analysis capabilities
+- Automatic generation of SLHA format files
+- Parallel processing support
+
+## Requirements
+- Python 3.x
+- NumPy
+- Pandas
+- SPheno
+- MicrOMEGAs
+- pyslha
+- xslha
+
+## Installation
+1. Clone the repository
+2. Install required Python packages:
+```bash
+pip install numpy pandas
